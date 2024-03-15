@@ -12,7 +12,6 @@ function weather(input) {
     } else if (5 <= degrees && degrees <= 11.9) {
             console.log("Cold");
     } else console.log("unknown");
-    
 }
 
 weather(["16.5"]);
